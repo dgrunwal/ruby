@@ -1,0 +1,61 @@
+
+Welcome to the most comprehensive Ruby course available on Udemy! An in-depth overview of coding with Ruby, a popular programming language renowned for its simplicity and elegance. Whether you've never written a line of code before or are looking to learn a brand new language, this course covers all bases!
+
+Learn to Code with Ruby offers more than 43 hours of video tutorials, 250+ lectures, and dozens of quizzes and coding exercises to test your knowledge as you proceed through the course.
+
+Lessons include:
+
+Installation and configuration for both Mac OS and Windows systems
+
+Common programming concepts (variables, arithmetic, output)
+
+Objects and methods
+
+Strings
+
+Numbers
+
+Booleans
+
+Methods and Conditionals
+
+Ranges
+
+Arrays
+
+Hashes
+
+Blocks, Procs, and Lambdas
+
+Dates and times
+
+File Input and Output
+
+Regular Expression
+
+Classes, Modules, and Inheritance
+
+and more!
+
+Ruby is a language released by Yukihiro Matsumoto in 1995 that bills itself as "a programmer's best friend". Every aspect of Ruby is designed to make programming easier for the developer. There is no better first language if you're interested in learning how to program.
+
+Ruby also serves as the foundation for Ruby on Rails, a popular web framework that powers over 1.2 million websites worldwide. The course offers an extensive introduction to the base language you'll need to know if you intend to tackle web development in the future.
+
+Check out the sample videos below to get a taste of what the course has to offer!
+
+So if you're ready to commit yourself, if you're eager to expand your knowledge of programming, if you're ready to discover what makes this elegant language so loved by developers, you are ready to Learn to Code with Ruby!
+
+Thanks for checking out the course!
+
+What you’ll learn
+Learn to program in the Ruby programming language
+Master common Ruby objects like Strings, Arrays, Hashes, and more
+Solve popular coding challenges and algorithms with Ruby
+Dive into object-oriented programming including classes and more
+Are there any course requirements or prerequisites?
+Basic text editing skills
+Basic computer skills (web browsing, app installation, file navigation)
+Who this course is for:
+Beginning programmers who want to start with an easy, human-friendly language
+Intermediate coders who are interested in exploring the Ruby language in greater depth
+Web development folk curious about the foundation of Ruby on Rails

@@ -1,0 +1,28 @@
+Sure, here's an example of a Ruby program that uses a block and then transforms the block into a proc for ease of use:
+
+```ruby
+# Example of a program using a block
+def greet(name)
+  puts "Hello, #{name}!"
+  yield if block_given?  # Invokes the block if one is provided
+end
+
+# Using the method with a block
+greet("Alice") do
+  puts "Nice to meet you!"
+end
+
+# Transforming the block into a proc for ease of use
+nice_to_meet_you = Proc.new do
+  puts "Nice to meet you!"
+end
+
+# Using the proc with the method
+greet("Bob", &nice_to_meet_you)
+```
+
+In this example:
+- We define a method `greet` that takes a `name` parameter and yields to a block if one is provided.
+- We use the method `greet` with a block to greet someone and print a message.
+- We then create a `Proc` object named `nice_to_meet_you` that contains the same block code.
+- Finally, we call the `greet` method again, passing the `nice_to_meet_you` proc using the `&` operator to convert it into a block for ease of use.

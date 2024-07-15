@@ -1,0 +1,69 @@
+Ruby Study Materials
+
+
+Prometric site:  https://www.ruby.or.jp/en/certification/examination/
+
+
+For the Silver Exam
+
+Prep test for the Silver exam
+https://github.com/ruby-association/prep-test/blob/version3/silver.md
+
+Help and documentation for the Ruby programming language
+https://ruby-doc.org/
+
+The Ruby Programming Language
+http://shop.oreilly.com/product/9780596516178.do
+
+Programming Ruby
+http://ruby-doc.com/docs/ProgrammingRuby/
+
+For the Gold Exam
+
+Prep test for the Gold exam
+https://github.com/ruby-association/prep-test/blob/version3/gold.md
+
+MetaProramming Ruby2
+https://pragprog.com/book/ppmetr2/metaprogramming-ruby-2
+
+
+
+
+Test time
+90 minutes
+Method
+Computer Based Testing
+Number of questions
+50 (multiple choice)
+passing score
+75 %
+target version
+Ruby 3.1.x
+Scope
+Syntax
+
+Comment
+Literals (e.g., numbers, booleans, strings, characters, arrays, hashes)
+Variables, constants, and scope
+Operators
+Conditional branching
+Loops
+Exception handling
+Method calls
+Blocks
+Method definition
+Class definition
+Module definition
+Keyword arguments
+Built-in libraries
+
+Well-used built-in classes and modules
+(e.g., Object, Numerical classes, String, Array, Hash, Kernel, Enumerable, Comparable)
+Object orientation
+
+Polymorphism
+Inheritance
+mix-in
+
+Examination fee
+USD 150 (Education Pricing)

@@ -1,0 +1,48 @@
+Sure, here are two Ruby classes, one with an instance variable and another with an instance method, along with explanations for each:
+
+### Ruby Class with an Instance Variable:
+
+```ruby
+class Person
+  # Instance variable
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
+end
+
+# Usage
+person = Person.new("Alice")
+puts person.name  # Output: Alice
+```
+
+In this example, `Person` is a class with an instance variable `@name`. The `attr_accessor :name` line creates getter and setter methods for the `name` instance variable. The `initialize` method is a special method in Ruby that is called when a new object of the class is created. It sets the `@name` instance variable when a new `Person` object is instantiated.
+
+### Ruby Class with an Instance Method:
+
+```ruby
+class Calculator
+  # Instance method
+  def add(a, b)
+    a + b
+  end
+end
+
+# Usage
+calculator = Calculator.new
+result = calculator.add(2, 3)
+puts result  # Output: 5
+```
+
+In this example, `Calculator` is a class with an instance method `add`. Instance methods are defined without the use of the `self` keyword and can be called on objects of the class. The `add` method takes two parameters `a` and `b` and returns their sum. When `add` is called on a `Calculator` object, it performs the addition operation and returns the result.
+
+In summary:
+- **Instance Variable:** An instance variable is a variable that belongs to an instance of a class. It represents the attributes or properties of the object. Instance variables are prefixed with `@` and are used to store object-specific data.
+- **Instance Method:** An instance method is a method that operates on instances of a class. It can access and manipulate instance variables and perform specific actions related to the class. Instance methods don't have the `self` prefix and are called on objects of the class.
+
+KEY
+
+The differences between an instance variable and instance method
+
+An instance variable is a variable associated with a specific instance of a class, storing object-specific data, whereas an instance method is a function defined within a class that operates on instance variables, performs actions related to the class, and can be called on objects of the class to execute specific behavior.

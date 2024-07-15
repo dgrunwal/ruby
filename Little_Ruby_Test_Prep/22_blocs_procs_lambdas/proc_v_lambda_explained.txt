@@ -1,0 +1,13 @@
+In Ruby, lambdas and procs are both types of anonymous functions, but they have some differences in behavior:
+
+Similarities:
+1. Both lambdas and procs can be created using the `lambda` keyword or the `Proc.new` method.
+2. They can both be passed around as objects and assigned to variables.
+3. They both capture their surrounding scope.
+
+Differences:
+1. Lambdas enforce strict argument count, while procs do not. Lambdas raise an ArgumentError if the number of arguments passed doesn't match the expected number, while procs ignore extra arguments and set missing ones to nil.
+2. Return behavior: Lambdas return control to the calling method, while procs return from the method where they were defined.
+3. Syntax: Lambdas use the `->` notation or the `lambda` keyword, while procs use the `Proc.new` method or the `proc` keyword.
+
+In summary, while lambdas and procs are similar in many respects, they have differences in how they handle arguments and return control flow, as well as in their syntax.

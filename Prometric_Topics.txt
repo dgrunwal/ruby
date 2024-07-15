@@ -1,0 +1,24 @@
+
+
+ 
+Literals (e.g., numbers, booleans, strings, characters, arrays, hashes)
+Variables, constants, and scope
+Operators
+Conditional branching
+Loops
+Exception handling
+Method calls
+Blocks
+Method definition
+Class definition
+Module definition
+Keyword arguments
+Built-in libraries
+
+Well-used built-in classes and modules
+(e.g., Object, Numerical classes, String, Array, Hash, Kernel, Enumerable, Comparable)
+Object orientation
+
+Polymorphism
+Inheritance
+mix-in

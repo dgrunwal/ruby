@@ -1,0 +1,50 @@
+The error in your code is because `numbers.txt` should be a string literal to represent the filename, but it's being treated as a variable or method name `numbers`. To fix this, you need to enclose `numbers.txt` in quotes to make it a string. Here's the corrected code:
+
+```ruby
+def mean_from_file(filename)
+  # Read integers from the file
+  integers = File.readlines(filename).map(&:to_i)
+
+  # Calculate the mean
+  total = integers.inject(0) { |sum, x| sum += x }
+  mean = total / integers.size.to_f
+
+  # Return the mean
+  mean
+end
+
+mean = mean_from_file("numbers.txt")
+puts mean
+```
+
+Make sure to place `numbers.txt` in the same directory as your Ruby script, or provide the full path if it's located elsewhere. After making this change, you should be able to run the code without errors.
+
+
+CALCULATE NUMBERS IN ROWS SEPARATED BY COMMAS
+
+
+If the numbers in the `numbers.txt` file are separated by commas (`,`) within each row, you need to adjust your code to split each row into individual numbers before converting them to integers. Here's how you can modify the `mean_from_file` method to handle this:
+
+```ruby
+def mean_from_file(filename)
+  # Read lines from the file and split each line into individual numbers
+  numbers = File.readlines(filename).map { |line| line.split(',').map(&:to_i) }
+
+  # Flatten the array of arrays to get a single array of numbers
+  integers = numbers.flatten
+
+  # Calculate the mean
+  total = integers.inject(0) { |sum, x| sum += x }
+  mean = total / integers.size.to_f
+
+  # Return the mean
+  mean
+end
+
+mean = mean_from_file("numbers.txt")
+puts mean
+```
+
+In this modified version, `File.readlines(filename)` reads each line of the file into an array of strings. Then, `map { |line| line.split(',').map(&:to_i) }` splits each line by commas (`','`) to create arrays of strings, which are then converted to integers using `map(&:to_i)`. Finally, `flatten` is called on the `numbers` array to flatten it into a single array of integers. The rest of the code remains the same as before.
+
+

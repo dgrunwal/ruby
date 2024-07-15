@@ -1,0 +1,29 @@
+
+# my_class.rb
+
+require_relative 'my_module'
+
+MyModule.my_method
+
+
+# my_module.rb
+
+module MyModule
+  def self.my_method
+    puts 'This is a method in MyModule'
+  end
+end
+
+
+
+1.  Make two files 
+2.  Run my_class.rb 
+3.  Prints "This is a method in MyModule"
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+
+class Circle
+  attr_accessor :radius
+​
+  def diameter
+    radius * 2
+  end
+​
+  # Virtual attribute for circumference calculation
+  def circumference
+    diameter * Math::PI
+  end
+end
+​
+# Usage
+circle = Circle.new
+circle.radius = 5
+​
+puts "Diameter: #{circle.diameter}" # Output: Diameter: 10
+puts "Circumference: #{circle.circumference}" # Output: Circumference: 31.41592653589793
+​
+Diameter: 10
+Circumference: 31.41592653589793

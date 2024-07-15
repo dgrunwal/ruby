@@ -1,0 +1,21 @@
+
+In Jupyter Notebook, you can enable text wrapping for cells containing long lines of text by setting the appropriate CSS style. Here's how you can enable word wrapping for text in a Jupyter Notebook cell:
+
+1. **Create a Markdown Cell:**
+   First, create a Markdown cell where you want to enable word wrapping. To do this, select a cell and change its type to Markdown. You can do this by selecting the cell and choosing "Markdown" from the dropdown menu in the toolbar or by pressing `Esc` to enter command mode and then pressing `M` to convert the cell to Markdown.
+
+2. **Use HTML `<div>` Tag:**
+   Within the Markdown cell, use an HTML `<div>` tag to apply a CSS style to the text. You can set the `overflow-wrap` CSS property to `break-word` to enable word wrapping. Here's an example of how you can use it:
+
+   ```markdown
+   <div style="overflow-wrap: break-word;">
+   This is a long line of text that will wrap to the next line if it exceeds the width of the cell.
+   </div>
+   ```
+
+   In the above example, the `style` attribute sets the `overflow-wrap` property to `break-word`, allowing long words to break and wrap onto the next line.
+
+3. **Run the Cell:**
+   After adding the HTML code to the Markdown cell, run the cell to render the formatted text. The long lines of text will now be wrapped within the cell.
+
+Remember that this method uses HTML and CSS to style the text in a Markdown cell. By using this approach, you can control the word wrapping behavior for specific cells in your Jupyter Notebook.

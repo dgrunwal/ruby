@@ -1,0 +1,49 @@
+
+
+
+
+Ruby Resources 
+
+https://ruby-doc.org/docs/ruby-doc-bundle/Manual/man-1.4/
+
+https://ruby-doc.org/docs/ruby-doc-bundle/Manual/man-1.4/classes.html#modules
+
+String 
+
+https://ruby-doc.org/docs/ruby-doc-bundle/Manual/man-1.4/String.html
+
+In Ruby, you can access help documentation for a specific method or class using the `ri` (Ruby Interactive) command-line tool. Here are a few examples of how to use `ri`:
+
+1. **To get help for a specific class:**
+   ```
+   ri ClassName
+   ```
+
+   For example:
+   ```
+   ri Array
+   ```
+
+2. **To get help for a specific method of a class:**
+   ```
+   ri ClassName.method_name
+   ```
+
+   For example:
+   ```
+   ri Array.each
+   ```
+
+3. **To get general help for Ruby programming:**
+   ```
+   ri
+
+C:\Ruby32\bin>ri
+
+Enter the method name you want to look up.
+
+   ```
+
+   This will provide a list of available topics. You can then type the topic you are interested in to get more detailed information.
+
+Make sure you have Ruby and its documentation installed on your system to use the `ri` tool. Some systems might require additional setup for `ri` to work correctly.

@@ -1,0 +1,41 @@
+Absolutely, you're correct! In Ruby, the `&&` (logical AND) and `||` (logical OR) operators perform short-circuit evaluation, which means they only evaluate the right side of the expression if necessary based on the left side. However, the single `&` (bitwise AND) and `|` (bitwise OR) operators do not short-circuit, meaning both sides are always evaluated.
+
+Here are examples to illustrate these concepts:
+
+### Short-Circuit Evaluation with `&&` and `||`:
+
+#### Logical AND (`&&`):
+```ruby
+result = false && some_method()
+puts "Result: #{result}" # Output: Result: false
+```
+
+In this case, `some_method()` is not called because the left side of the `&&` operator is `false`, so the result is already known to be `false`.
+
+#### Logical OR (`||`):
+```ruby
+result = true || some_method()
+puts "Result: #{result}" # Output: Result: true
+```
+
+Here, `some_method()` is not called because the left side of the `||` operator is `true`, so the result is already known to be `true`.
+
+### Non-Short-Circuit Evaluation with `&` and `|`:
+
+#### Bitwise AND (`&`):
+```ruby
+result = true & some_method()
+puts "Result: #{result}" # Output: Result: false (some_method() is always called)
+```
+
+In this case, `some_method()` is called even if the left side is `true` because the `&` operator does not short-circuit.
+
+#### Bitwise OR (`|`):
+```ruby
+result = false | some_method()
+puts "Result: #{result}" # Output: Result: true (some_method() is always called)
+```
+
+Here, `some_method()` is called even if the left side is `false` because the `|` operator does not short-circuit.
+
+Remember that short-circuit evaluation can be advantageous for performance optimization and preventing unnecessary method calls or computations when using `&&` and `||` in logical contexts.

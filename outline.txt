@@ -1,0 +1,21 @@
+
+Use books and Prometric test and other self made code to make a little Ruby book that helps people 
+
+1.  Understand the code
+2.  Use the code for little projects 
+3.  Prepare for Prometric test
+4.  A little advanced topics 
+
+Dave's Little Ruby Book
+
+:)
+
+
+
+Unless you’re already an experienced programmer, start with the Rails Tutorial. After you’ve completed the tutorial, you may want to further refine your style and learn best practices with The Rails 5 Way (4th Edition) and Rails 5 Test Prescriptions: Build a Healthy Codebase.
+
+Alternatively, if you are already a programmer, you might find Agile Web Development with Rails 6 a more apt starting point to get up to speed with the framework. Then still get the other two books.
+
+This combo of three Rails books would already put your Rails theoretical knowledge ahead of that of many Rails programmers.
+
+As far as the practice goes, it all comes down to spending time writing code and doing so on your own projects (but reading other people’s code is also important to grow as a programmer). This way you’ll be able to gain practical experience with Rails that is backed by a solid theoretical foundation.
